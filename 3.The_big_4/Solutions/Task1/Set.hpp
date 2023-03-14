@@ -5,6 +5,7 @@ class Set {
     int capacity;
 
     void resize();
+    void copy(int const* elements, int numElements, int capacity);
 
 public:
     Set();
