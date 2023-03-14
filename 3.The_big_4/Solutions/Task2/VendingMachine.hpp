@@ -26,12 +26,7 @@ public:
     VendingMachine& operator=(VendingMachine const& other);
     ~VendingMachine();
 
-    int getId();
-    char* getAddress();
-    Inventory getInventory();
-    
-    void addMsg(char* msg);
-
+    //include other needed methods
 };
 
 
