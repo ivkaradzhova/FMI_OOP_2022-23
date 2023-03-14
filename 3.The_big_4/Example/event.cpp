@@ -30,8 +30,16 @@ void Event::copy(char const* title, char const* organizer, Time const start_time
     int title_len = strlen(title);
     int organizer_len = strlen(organizer);
 
+    if (this->title != nullptr) {
+        delete[] this->title;
+    }
     this->title = new char[title_len + 1];
     strcpy(this->title, title);
+
+
+    if (this->organizer != nullptr) {
+        delete[] this->organizer;
+    }
     this->organizer = new char[organizer_len + 1];
     strcpy(this->organizer, organizer);
     
