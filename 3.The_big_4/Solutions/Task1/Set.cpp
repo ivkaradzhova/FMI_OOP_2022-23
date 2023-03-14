@@ -86,12 +86,12 @@ void Set::setUnion(Set const& other) {
 void Set::setIntersection(Set const& other) {
     for(int i = 0; i < this->numElements; i++) {
         int j = 0;
-        std::cout << j << " " << this->elements[i] << std::endl;
         while(j < other.numElements && this->elements[i] != other.elements[j]) {
             j++;
         }
         if(j == other.numElements) {
             this->deleteElement(this->elements[i]);
+            i--;
         }
     }
 }
