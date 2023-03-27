@@ -20,7 +20,7 @@ class VendingMachine {
 
 public:
     VendingMachine(); //default constructor
-    VendingMachine(char* address, Inventory inventory); //default constructor
+    VendingMachine(char* address, Inventory inventory); //constructor with params
     VendingMachine(VendingMachine const& other); // copy constructor
     VendingMachine(VendingMachine && other); // move constructor
     VendingMachine& operator=(VendingMachine const& other);
