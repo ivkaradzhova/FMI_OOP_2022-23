@@ -1,4 +1,4 @@
-#include "Error.hpp"
+#include "Error.h"
 
 Error::Error(int code, String message) : code(code), message(message)
 { }

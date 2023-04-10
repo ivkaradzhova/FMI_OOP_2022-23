@@ -1,6 +1,6 @@
-#ifndef  ERROR_H
-#define  ERROR_H
-#include "String.hpp"
+#ifndef  _ERROR_H
+#define  _ERROR_H
+#include "String.h"
 
 class Error
 {

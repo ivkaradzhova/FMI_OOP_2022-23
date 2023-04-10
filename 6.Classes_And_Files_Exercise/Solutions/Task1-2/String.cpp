@@ -1,4 +1,4 @@
-#include "String.hpp"
+#include "String.h"
 #include <cstring>
 #include <cassert>
 #define _CRT_NO_WARNINGS
@@ -143,7 +143,7 @@ std::istream& operator>>(std::istream& is, String& string)
 {
 	const int BUFFER_SIZE = 256;
 	char buff[BUFFER_SIZE];
-	is.getline(buff, BUFFER_SIZE);
+	cin >> buff;
 	string = buff;
 	return is;
 }

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "String.hpp"
-#include "Error.hpp"
+#include "String.h"
+#include "Error.h"
 
 int main() {
     String str;
