@@ -39,12 +39,12 @@
 Shape:
 - type
 
-Rectangular:
+Rectangle:
 - type
 - width
 - height
 
-ColoredRectangular:
+ColoredRectangle:
 - type
 - width
 - height
