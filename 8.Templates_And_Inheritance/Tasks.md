@@ -32,3 +32,30 @@
 - стаж (в месеци);
 - заплата;
 - колко човека управлява.
+
+## 3. задача
+
+Да се реализират следните класове, като се стремите максимално да преизползвате код:       
+Shape:
+- type
+
+Rectangle:
+- type
+- width
+- height
+
+ColoredRectangle:
+- type
+- width
+- height
+- color
+
+Square:
+- type
+- side
+
+Triangle:
+- type
+- side1
+- side2
+- side3
