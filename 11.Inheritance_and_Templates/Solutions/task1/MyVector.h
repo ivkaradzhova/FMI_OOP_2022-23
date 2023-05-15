@@ -23,6 +23,8 @@ public:
 
     template <typename R>
     void apply(R (*func)(T&));
+
+    T operator[](int index);
 };
 
 template <typename T>
@@ -77,5 +79,13 @@ void MyVector<T>::apply(R (*func)(T&)) {
     }
 }
 
+template <typename T>
+T MyVector<T>::operator[](int index) {
+    if (index > this->size) {
+        throw std::runtime_error("Index out of bounds");
+    }
+
+    return this->arr[index];
+}
 
 #endif
