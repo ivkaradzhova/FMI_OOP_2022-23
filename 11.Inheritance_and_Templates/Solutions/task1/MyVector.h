@@ -24,7 +24,7 @@ public:
     template <typename R>
     void apply(R (*func)(T&));
 
-    T operator[](int index);
+    T operator[](unsigned int index);
 };
 
 template <typename T>
