@@ -80,7 +80,7 @@ void MyVector<T>::apply(R (*func)(T&)) {
 }
 
 template <typename T>
-T MyVector<T>::operator[](int index) {
+T MyVector<T>::operator[](unsigned int index) {
     if (index > this->size) {
         throw std::runtime_error("Index out of bounds");
     }
