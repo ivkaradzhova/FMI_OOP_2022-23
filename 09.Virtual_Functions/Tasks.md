@@ -12,7 +12,7 @@
 
 
 ## 2. задача
-(Задачата разширява [2-рата задачата от упражнение 8](https://github.com/ivkaradzhova/FMI_OOP_2022-23/blob/master/8.Templates_And_Inheritance/Tasks.md#2-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0) )
+(Задачата разширява [2-рата задачата от упражнение 8](https://github.com/ivkaradzhova/FMI_OOP_2022-23/blob/master/08.Templates_And_Inheritance/Tasks.md#2-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0) )
 
 а) Създайте клас за проектите, който да съдържа информация за:
 1. **име**
