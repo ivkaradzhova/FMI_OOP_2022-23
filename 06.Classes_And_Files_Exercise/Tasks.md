@@ -2,7 +2,7 @@
 
 Ако имате нужда от още задачи, препоръчвам да си дорешите старите и да разгледате репотата на другите асистенти. Например: 
 - [Репото на Стела](https://github.com/ariolandi/OOP-2023)
-- [Репото на Иван](https://github.com/ariolandi/OOP-2023)
+- [Репото на Иван](https://github.com/18ivan18/ObjectOrientedProgramming2023)
 - [Имате репото на Алексис :)](https://github.com/Aleksis99/Object-Oriented-Programming_FMI_2022-2023)
 - [Репото на Владимир и Захари](https://github.com/vladi2703/object-oriented-programming-fmi)
 
